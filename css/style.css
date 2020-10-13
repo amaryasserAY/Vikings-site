@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  background-color: rgba(0, 31, 51, 0.5) !important;
+}
+.navbar {
+  padding: 0;
+}
+nav .navbar-brand img {
+  width: 60px;
+  height: 60px;
+}
+
+nav .nav-item {
+  padding-left: 1.2rem;
+}
+
+nav .nav-item .nav-link {
+  font-size: 16px;
+  color: #fff !important;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+nav .nav-item .nav-link:hover,
+nav .nav-item .nav-link.active {
+  font-size: 18px;
+  color: #012434 !important;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+nav .sign {
+  color: #fff;
+  padding-right: 20px;
+  font-size: 12px;
+}
+nav .sign i {
+  margin-right: 15px;
+}
+
+nav .sign a {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+nav .sign a:hover {
+  background-color: #fff;
+}
+
+/* Start Header */
+
+header {
+  background-image: url("../imge/header.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+}
+
+header .title {
+  position: absolute;
+  bottom: 20%;
+  left: 30%;
+}
+
+header .title h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+header .title button {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  animation: shadows 1s infinite linear;
+  -webkit-animation: shadows 1s infinite linear;
+}
+
+header .title button:hover {
+  background-color: #012434;
+}
+
+@keyframes shadows {
+  from {
+    box-shadow: 0 0 0 0px rgba(0, 31, 51, 0.8);
+  }
+
+  to {
+    box-shadow: 0 0 0 40px rgba(0, 31, 51, 0);
+  }
+}
+
+/* End Header */
+#info {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#info img {
+  width: 100%;
+}
+
+.title2 {
+  color: #012434;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  position: relative;
+  letter-spacing: 1.5px;
+}
+
+#info a {
+  border: 1px solid #012434;
+  background-color: transparent;
+  color: #012434;
+  padding: 15px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#info a:hover {
+  background-color: #012434;
+  color: #fff;
+  border-color: #fff;
+}
+
+/* Start Season */
+#season {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#season .card {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  box-shadow: 15px 15px 15px rgba(0, 31, 51, 0.5);
+}
+
+#season .card:hover {
+  transform: translateY(-40px);
+  -webkit-transform: translateY(-40px);
+  -moz-transform: translateY(-40px);
+  -ms-transform: translateY(-40px);
+  -o-transform: translateY(-40px);
+}
+
+#season .card-title {
+  color: crimson;
+  font-size: 30px;
+}
+
+#season .card-body {
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+
+#season .card-text {
+  color: #fff;
+  font-size: 20px;
+}
+
+#season a {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+#season a:hover {
+  background-color: #012434;
+}
+
+/* End Season */
+
+/* Start  Cast*/
+
+#cast {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#cast .img-cast {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#cast .dice-cast {
+  margin-top: 20px;
+}
+
+#cast .dice-cast h5 {
+  font-weight: bold;
+  color: #517fa4;
+}
+
+#cast .dice-cast p {
+  color: crimson;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+/* End Cast */
+/* Start View */
+
+#view {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#view .progress {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 15px;
+  align-items: center;
+}
+#view .progress label {
+  margin-right: 22px;
+  font-size: 13px;
+  color: crimson;
+  padding: 4px 21px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  background: black;
+  border-radius: 8px;
+  margin-left: -12px;
+}
+
+#view .progress .bg-pr1 {
+  background-color: #3b3b98;
+}
+
+#view .progress .bg-pr2 {
+  background-color: #182c61;
+}
+#view .progress .bg-pr3 {
+  background-color: #82589f;
+}
+#view .progress .bg-pr4 {
+  background-color: #58b19f;
+}
+#view .progress .bg-pr5 {
+  background-color: #fc427b;
+}
+#view .progress .bg-pr6 {
+  background-color: #b33771;
+}
+
+/* trailer */
+#trailer {
+  padding-top: 40px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#trailer video {
+  width: 100%;
+}
+
+/* Start Footer */
+
+footer {
+  background-image: url("../imge/footer.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 31, 51, 0.7);
+}
+
+footer h3 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: crimson;
+}
+
+footer li {
+  margin-top: 14px;
+  width: 55px;
+  height: 55px;
+  position: relative;
+  background-color: #fff;
+  border: 2px solid #58b19f;
+  cursor: pointer;
+  animation: moving 2s infinite ease-in-out;
+  -webkit-animation: moving 2s infinite ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+footer i {
+  font-size: 40px !important ;
+  color: #3b3b98;
+  position: absolute;
+  top: 10px;
+  left: 9px;
+}
+
+@keyframes moving {
+  0% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}
+footer p {
+  font-size: 50px;
+  line-height: 2.5;
+  font-weight: bold;
+}
+
+footer .copy {
+  font-size: 20px;
+  padding-top: 15px;
+  width: 100%;
+}
+footer .copy span {
+  font-weight: bolder;
+  color: crimson;
+}
+
+footer .copy hr {
+  border-top: 2px solid crimson;
+  margin-bottom: 50px;
+}
+
+/* Start Media  */
+
+@media (max-width: 767px) {
+  /* =============Navbar============ */
+  nav {
+    background-color: rgba(0, 31, 51, 1) !important;
+  }
+  nav .nav-item {
+    margin-top: 15px;
+  }
+
+  nav .sign a {
+    margin-left: 47%;
+    margin-top: 30px !important;
+  }
+
+  /* =============Header============ */
+  header .title {
+    bottom: 30%;
+    left: 15%;
+  }
+  header .title h1 {
+    font-size: 30px;
+  }
+
+  /* =============Progressbar============ */
+  #view .progress label {
+    font-size: 8px;
+    padding: 8px 3px;
+  }
+
+  /* =============Footer============ */
+  footer {
+    height: 160vh;
+  }
+  footer li {
+    margin: 17px auto;
+  }
+  footer .copy hr {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 991px) {
+  /* =============Navbar============ */
+  nav {
+    background-color: rgba(0, 31, 51, 1) !important;
+  }
+  nav .nav-item {
+    margin-top: 15px;
+  }
+
+  nav .sign a {
+    margin-left: 47%;
+    margin-top: 30px;
+  }
+
+  /* =============Header============ */
+  header .title {
+    bottom: 30%;
+    left: 15%;
+  }
+  header .title h1 {
+    font-size: 50px;
+  }
+
+  /* =============Progressbar============ */
+  #view .progress label {
+    font-size: 8px;
+    padding: 8px 3px;
+  }
+
+  /* =============Footer============ */
+
+  footer li {
+    margin: 17px auto;
+  }
+  footer .copy hr {
+    margin-bottom: 10px;
+  }
+}
